@@ -13,11 +13,7 @@ namespace API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        List<int> RENAN = new List<int>();
-
-        
-
-
+      
         private readonly DataContext _context;
         public ValuesController(DataContext context)
         {
